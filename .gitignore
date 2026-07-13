@@ -1,5 +1,28 @@
+# SQLite database files (runtime generated)
+*.db
+*.sqlite3
+
+# Node / React dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+out/
+.turbo/
+.vite/
+.parcel-cache/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.py[codz]
 *$py.class
 
